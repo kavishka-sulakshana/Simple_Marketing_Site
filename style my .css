@@ -1,0 +1,222 @@
+*{
+    
+    box-sizing: border-box;
+    margin-left:auto;
+    margin-right:auto;
+}
+.all{
+    margin:auto;
+    
+}
+
+.content{
+    display: flex;
+    
+    max-width: 1300px;
+    margin: auto;
+}
+.name{
+    margin-left: 20px; 
+     
+}
+.name h1{
+    cursor: pointer;
+    display: inline;
+    font-size: 25px;  
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+    top: 10px;
+}
+.name h1:nth-child(1){
+    color: rgb(236, 26, 26);
+    
+    
+}
+.content div{
+    flex-basis: 50%;
+    
+}
+.hul{
+    display:inline-block;
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: right;
+
+}
+.hul li{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 30px;
+    
+}
+.hul li a{
+    text-decoration: none;
+    color: #555;
+}
+.hul li a:hover{
+    color: rgb(0, 0, 0);
+}
+.headlist i{
+    widows: 70px;
+    padding:10px;
+    margin-left:25px;
+    border:#333 1px solid;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.small-con{
+    background: radial-gradient(rgba(243, 152, 125, 0.671),rgb(255, 255, 255));
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.col-2:nth-child(1){
+    flex:40%;
+}
+.col-2:nth-child(2){
+    flex:60%;
+}
+.col-2 h1{
+    margin-left:48px ;
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+}
+.col-2 h3{
+    margin-left:45px ;
+    margin-right:45px ;
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+}
+.col-2 img{
+    width: 100%;
+}
+.dis{
+    position: relative;
+    margin-top:70px ;
+    
+}
+.dis h2{
+    transition: transform 0.5s;
+}
+.dis h2:hover{
+    transform: translateX(10px);
+}
+.col-2 h2{
+    display:inline-block;
+    margin-left:65px ;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 20px;
+    padding:0 5px;
+    background: crimson;
+    color: ghostwhite;
+    cursor: pointer;
+}
+.col-4{
+    
+    background:radial-gradient(rgb(255, 255, 255),rgba(141, 141, 141, 0.479)) ;
+    flex-basis:25%;
+    margin:1%;
+    border-radius: 25px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top: rgba(66, 66, 66, 0.521) 01px solid;
+    color: rgb(17, 17, 17);
+    
+
+}
+.col-4 img{
+    width:100%;   
+    cursor: pointer;
+    transition: transform 1s;
+    
+}
+.col-4 img:hover{
+ transform: translateY(10px); 
+    
+}
+.small-con2{
+    margin-top:70px;
+}
+h4{
+    margin:20%;
+    margin-top: 0;
+    margin-bottom:15px;
+    font-family: 'Mukta', sans-serif;
+}
+.small-con2 h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align:center ;
+   padding:15px;
+   cursor: pointer;
+   background:radial-gradient(rgb(255, 255, 255) , rgb(240, 238, 238));
+   transition: background 1s;
+}
+.small-con2 h1:hover{
+      background: radial-gradient(rgb(255, 255, 255) , rgba(253, 0, 0, 0.199));
+    
+}
+#row3{
+    background: radial-gradient(rgba(241, 111, 111, 0.493),#fff);
+    margin-top: 50px;
+}
+#dec1 p{
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-left: 10%;
+    font-size: 40px;
+    background: rgb(248, 29, 29);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: margin-left 1s;
+}
+#dec1 p:hover{
+    margin-left: 5%;
+}
+table{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+table tr th,td{
+    padding:5px 12px;
+    
+}
+#row3 .col-2{
+    flex-basis: 50%;
+}
+#row3 .col-2 img{
+    border-radius: 25px;
+    margin: auto;
+    transform: translateY(20px);
+    filter: opacity(80%);
+    transition: filter 0.5s;
+}
+#row3 .col-2 img:hover{
+    filter: opacity(100%);
+}
+table tr th{
+    color: rgb(255, 255, 255);
+    background: #222;
+}
+table tr td{
+    color: rgb(255, 255, 255);
+    background: #777;
+}
+#dec1 h2{
+    padding: 10px ;
+    margin-left: 10%;
+    
+}
+#dec1 h2:hover{
+    color:#ccc;
+}
